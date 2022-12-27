@@ -1,0 +1,474 @@
+*{margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    src: url('font/Roboto-Bold.tff');
+    font-family: 'Roboto';
+}
+main{
+    font-family: var(--font-family);
+}
+:root{
+    --text-fontsize:16px;
+    --font-family:'Roboto';
+    --font-weight:500
+}
+header{
+    border-radius:0 0 20px 20px;
+    box-shadow: 2px 3px 5px rgba(0,0,0 ,0.5);
+    padding:20px 30px  ;
+    background-color: #f1f2f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    
+}
+.Logo img{
+    width: 80px;
+    border-radius: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    padding:0 10px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #000;
+}
+.active{
+    color: blue;
+}
+nav a:hover{
+    color: blue;
+    border-bottom: 5px solid blue;
+}
+.banner{
+    
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 7% 0;
+    gap: 160px;
+}
+
+
+.profile img{
+    box-shadow: 0px 0px 10px rgba(0,0,0 ,0.5);
+    width: 300px;
+    height: 300px;
+    border-radius: 250px;
+}
+.banner-wrapp h1{
+    font-size: 30px;
+    color: #fff;
+}
+.banner-wrapp p{
+    font-size: 17px;
+    padding: 20px 0;
+    color: #fff;
+    line-height: 24px;
+    width: 60%;
+}
+.banner-wrapp button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.banner-wrapp button a i{
+    padding-left: 5px;
+}
+.banner-wrapp button{
+    background-color: blue;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px rgba(9, 27, 165,0.6);
+    margin-bottom: 30px;
+}
+.header-banner{
+    background-image: url('images/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.socialMediaIcon a i{color: #fff;
+    font-size: large;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: blue;
+}
+.about div img{
+    width: 60px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about div h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about div p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.about > div{
+    width: 50%;
+}
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.stacks div{
+    padding: 10px;
+    text-align: center !important;
+}
+.stacks{
+    background-color:blue;
+    width: 50% !important;
+}
+.stacks div img{
+    background-color:rgba(255,250,255,0.4);
+    padding: 15px;
+    margin-right: 12px;
+    border-radius: 15px;
+}
+.habib {
+    width: 50%;
+    font-weight: 500;
+    margin-bottom:15px ;
+}
+.purpose{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.htss,.react{
+    display: flex;
+    justify-content: center;
+}
+.htss div p,.react div p{
+    color: #fff;
+    font-weight: 500;
+}
+.mine{
+    margin-top: 60px;
+}
+.project div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+}
+.project> div{
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0 ,0.7);
+}
+.clone{
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
+.clone h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.project div a{
+    text-decoration: none ;
+    color: rgb(9, 27, 165);
+}
+.project div p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 0;
+}
+.clone1,.clone2,.clone3{
+    padding: 10px 0 12px 18px;
+}
+.education h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.education1 div img{
+    width: 500px;
+}
+.education1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.education1 div p{
+    width: 90%;
+    line-height: 24px;
+    font-size: 16.5px;
+}
+.uni{
+    margin-bottom: 10px;
+}
+.education{
+    background-image: url('images/image\ \(3\).jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.stories{
+    display: flex;
+    width: 75% !important;
+    justify-content: space-evenly;
+    padding: 6% 0;
+}
+.my-blog{
+    width: 25%;
+    background-color: blue;
+    padding: 100px 0;
+}
+.stories div{
+    width: 28%;
+}
+.stories div img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.my-blog h3{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.my-blog p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.stories div h4{
+    padding: 15px 0;
+}
+ input{
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+ }
+.send{
+    background-color: blue;
+    color: #fff;
+    width: 100%;
+} 
+textarea{
+    width: 250px;
+    height:60px;
+    padding:10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 80px 0 0 0;
+    margin-bottom: -90px;
+}
+.contact div a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.contact div p{
+    line-height: 22px;
+    font-size: 15px;
+    margin: 12px 0 16px;
+}
+.getIntouch{
+    width: 20%;
+}
+.getIntouch a i{
+    padding-right: 20px;
+}
+.messages{
+    box-shadow: 0px 0px 5px rgba(0,0,0 ,0.7);
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 120px 0 20px 0;
+}
+.MediaIcon a i{color: rgb(9, 27, 165);
+    font-size: large;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.copyright{
+    color: #fff;
+}
+.hambuger i{
+    display: none;
+}
+@media (max-width:780px){
+    header{
+        max-width:-webkit-fill-available;
+    }
+    nav{
+        display: none;
+        background-color: #fff;
+        padding-top: 10px;
+    }
+    nav a{
+        display: block;
+        padding-bottom: 10px;
+    }
+    nav a:hover{
+        color: blue;
+        border-bottom: none
+    }
+    .hambuger i{
+        display: flex;
+        font-size: 24px;
+        padding-right: 50px;
+        
+    }
+    .hambuger:hover nav{
+        display: block;
+        z-index: 1;
+        position: absolute;
+        right: 10px;
+    }
+    nav a{
+        margin-left: 20px;
+    }
+    .banner{max-width: 100%;
+        display: flex;
+        flex-direction:column;
+        gap:60px;
+        padding: 80px 0;
+    }
+    .about{
+        padding-top:55px ;
+        display: block;
+    }
+    #about{
+        max-width: fit-content;
+        padding:0 40px;
+    }
+    .about > div{
+        width: 100% !important;
+    }
+    
+    .plan,.purpose{
+        width: 100%;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        max-width:100%;
+        padding-left: 24px;
+    }
+    .project div{
+        width: 100%;
+        max-width:fit-content;
+        margin-bottom: 45px;
+    }
+    .clone{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .education1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .education1 div img{
+        width: 300px;
+    }
+    .comp{
+        padding:20px 0 0 40px;
+    }
+    .comp p{
+        width: 95% !important;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog> div{
+        width: 100%;
+    }
+    .stories{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 40px;
+        width: 100% !important;
+        max-width: fit-content;
+    }
+    .stories div{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .contact{
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        padding-left: 42px ;
+    }
+    .contact div{
+        width: 100%;
+        max-width:-webkit-fill-available;
+    }
+    .getIntouch{
+        padding-bottom: 25px;
+    }
+    footer{
+        display: block;
+        padding: 20px 40px ;
+    }
+    footer div{
+        padding-bottom: 10px;
+    }
+    .messages{
+        padding: 40px 20px !important;
+    }
+    .banner-wrapp p{
+        font-size: 17px;
+        padding: 20px 0;
+        color: #fff;
+        line-height: 24px;
+        width: 100%;
+    }
+}
