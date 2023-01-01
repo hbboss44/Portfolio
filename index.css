@@ -388,9 +388,7 @@ footer{
     .about > div{
         width: 100% !important;
     }
-    .habib{
-        width:80% !important;
-    }
+    
     .plan,.purpose{
         width: 100%;
     }
@@ -459,6 +457,9 @@ footer{
     footer{
         display: block;
         padding: 20px 40px ;
+    }
+    .habib{
+        width:80% !important;
     }
     footer div{
         padding-bottom: 10px;
