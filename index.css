@@ -388,7 +388,9 @@ footer{
     .about > div{
         width: 100% !important;
     }
-    
+    .habib{
+        width:80%
+    }
     .plan,.purpose{
         width: 100%;
     }
